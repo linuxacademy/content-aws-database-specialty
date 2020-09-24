@@ -1,0 +1,44 @@
+{
+	"redshift-import": [
+	    {
+		    "PutRequest": {
+			    "Item": {
+				    "ID": { "N": "0" },
+				    "Name": { "S": "David" },
+				    "Department": { "S": "Engineering" },
+				    "ExpenseCode": {"N": "200" }
+			    }
+		    }
+		},
+	        {   
+                    "PutRequest": {
+			    "Item": {
+				    "ID": { "N": "1" },
+				    "Name": { "S": "Clay" },
+				    "Department": { "S": "HR" },
+				    "ExpenseCode": {"N": "100" }
+			    }
+		    }
+		},	    
+		{
+		"PutRequest": {
+			    "Item": {
+				    "ID": { "N": "2" },
+				    "Name": { "S": "Sue" },
+				    "Department": { "S": "Sales" },
+				    "ExpenseCode": {"N": "300" }
+			    }
+			}
+		  },
+		  {
+                    "PutRequest": {
+			    "Item": {
+				    "ID": { "N": "3" },
+				    "Name": { "S": "Betty" },
+				    "Department": { "S": "Marketing" },
+				    "ExpenseCode": {"N": "400" }
+			    }
+		      }
+		  }
+	]
+}
